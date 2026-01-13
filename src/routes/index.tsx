@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router"
-import { MainView } from "./main-view"
+import { MainView } from "@/components/main-view"
 
 export const Route = createFileRoute("/")({ component: App })
 
